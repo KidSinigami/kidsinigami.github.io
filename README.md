@@ -1,2 +1,0 @@
-# kidsinigami.github.io
-Crypto
