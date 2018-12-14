@@ -3,6 +3,7 @@ body{ overflow: hidden;
   padding: 0;
 }
 
+
 #main{
   display: flex;
  flex-direction: column;
@@ -12,6 +13,7 @@ body{ overflow: hidden;
   background: linear-gradient(45deg, #EECFBA,#C5DDE8)
 }
 .menu li a{text-decoration: none;
+  font-family: 'Major Mono Display', monospace;
   color: #3d408f;
   font-size: 5em;
     padding:0.1em;
@@ -19,6 +21,7 @@ body{ overflow: hidden;
 }
 .menu li a:hover{text-decoration: none;
   color: #60ca9c;
+  font-family: 'Major Mono Display', monospace;
   font-size: 5em;
     padding:0.1em;
 
@@ -38,6 +41,17 @@ line-height: 0.5em;
 text-align: center;
 color: #0000CC;
 }
+.content  {flex: 1 0 auto;
+font-family: 'Source Code Pro', monospace;
+  position: relative;
+line-height: 0.5em;
+  font-size: 2.5em;
+text-align: center;
+color: #0000CC;
+}
+.content a{
+  text-decoration: line-through;
+}
 img{
   margin-top: 5vh;
 }
@@ -52,4 +66,15 @@ img{
 }
 #i4{
   width: 10vw;
+}
+#i5{
+  width: 20vh;
+  margin-bottom: 5vh;
+}
+.head {
+  color: #0b520e;
+  font-size: 2em;
+}
+.info{
+  line-height: 1em;
 }
