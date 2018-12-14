@@ -30,14 +30,25 @@ body{
 
 }
 .content{flex: 1 0 auto;
-
+font-family: 'Staatliches', cursive;
   position: relative;
 margin: 20px;
   font-size: 2em;
 text-align: center;
 color: #0000CC;
 }
-
+#i1{
+  width: 10vw;
+}
+#i2{
+  width: 10vw;
+}
+#i3{
+  width: 10vw;
+}
+#i4{
+  width: 10vw;
+}
 footer{text-align: center;
   padding: 1em;
   flex: 0 0 auto;
