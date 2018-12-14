@@ -30,7 +30,7 @@ body{
 
 }
 .content{flex: 1 0 auto;
-font-family: 'Staatliches', cursive;
+font-family: 'Pacifico', cursive;
   position: relative;
 margin: 20px;
   font-size: 2em;
@@ -50,6 +50,6 @@ color: #0000CC;
   width: 10vw;
 }
 footer{text-align: center;
-  padding: 1em;
+  padding: 0em;
   flex: 0 0 auto;
 }
