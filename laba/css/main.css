@@ -1,10 +1,53 @@
 body{ overflow: hidden;
   margin: 0;
   padding: 0;
+
+
 }
 
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
 
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }}
+
+@keyframes fadeInDown1 {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 50%, 0);
+    }
+
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes fadeInDown2 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -50%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }}
+.cont{
+    animation: fadeInDown 1s linear; /* IE 10+, Fx 29+ */
+}
 #main{
+
   display: flex;
  flex-direction: column;
   position: absolute;
@@ -33,6 +76,27 @@ body{ overflow: hidden;
 .menu {
 
 }
+.menu1 li a{text-decoration: none;
+  font-family: 'Major Mono Display', monospace;
+  color: #3d408f;
+  font-size: 5em;
+    padding:0.1em;
+
+}
+.menu1 li a:hover{text-decoration: none;
+  color: #60ca9c;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 5em;
+    padding:0.1em;
+
+}
+.menu1 li  {display: inline;
+
+
+}
+.menu1 {animation: fadeInDown 1s linear;
+
+}
 .content{flex: 1 0 auto;
 font-family: 'Source Code Pro', monospace;
   position: relative;
@@ -41,7 +105,8 @@ line-height: 0.5em;
 text-align: center;
 color: #0000CC;
 }
-.content  {flex: 1 0 auto;
+.content1  {animation: fadeInDown2 1.3s linear;
+  flex: 1 0 auto;
 font-family: 'Source Code Pro', monospace;
   position: relative;
 line-height: 0.5em;
@@ -52,10 +117,14 @@ color: #0000CC;
 .content a{
   text-decoration: line-through;
 }
+.content1 a{
+  text-decoration: line-through;
+}
 img{
   margin-top: 5vh;
 }
 #i1{
+
   width: 10vw;
 }
 #i2{
@@ -77,4 +146,13 @@ img{
 }
 .info{
   line-height: 1em;
+}
+.im{flex: 1 0 auto;
+  animation: fadeInDown1 1s linear;
+font-family: 'Source Code Pro', monospace;
+  position: relative;
+line-height: 0.5em;
+  font-size: 2.5em;
+text-align: center;
+color: #0000CC;
 }
